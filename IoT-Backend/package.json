@@ -1,7 +1,7 @@
 {
   "name": "iot-backend",
   "version": "1.0.0",
-  "description": "A simple API to send Gas Measurements for Air6systems",
+  "description": "A simple API to send dummy Gas Measurements",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
