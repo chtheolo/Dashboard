@@ -1,8 +1,8 @@
 {
-  "name": "air6systems-front-end",
+  "name": "dashboard-front-end",
   "version": "0.0.1",
   "private": true,
-  "description": "A software for air6systems Drone-IoT",
+  "description": "A software for visulazing data",
   "author": "Chris Theologou chtheolo@gmail.com",
   "scripts": {
     "build": "node build/build.js",
