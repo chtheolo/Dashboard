@@ -1,0 +1,9 @@
+stages:
+    - linting
+
+javascript-vue:
+    stage: linting
+    image: node:latest
+    script:
+        - npm install --silent eslint eslint-plugin-babel eslint-plugin-vue babel-eslint
+        - ./node_modules/.bin/eslint --ext .js,.vue src/
