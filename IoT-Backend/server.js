@@ -52,5 +52,5 @@ app.get('/gas_all', function (req, res) {
 });
 
 app.listen(config.webserver.port, function () {
-    console.log('Air6Systems API listening on port ' + config.webserver.port +'!');
+    console.log('REST API listening on port ' + config.webserver.port +'!');
 });
